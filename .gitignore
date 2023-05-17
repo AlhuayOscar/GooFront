@@ -1,0 +1,28 @@
+# Archivos y directorios específicos
+archivo-especifico.txt
+carpeta-especifica/
+
+# Extensiones de archivo
+*.log
+*.tmp
+
+# Carpeta generada por un entorno de desarrollo
+/node_modules/
+
+# Archivos de compilación
+/build/
+/dist/
+
+# Archivos de configuración local
+.env
+
+# Archivos de editor
+.vscode/
+
+# Otros archivos y directorios generados
+.DS_Store
+Thumbs.db
+
+# Ignorar un archivo pero rastrear su carpeta vacía
+carpeta-vacia/
+!carpeta-vacia/.gitkeep
